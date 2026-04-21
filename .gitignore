@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# SQLite databases
+*.db
+
+# Compiled C binaries
+vuln
+vuln_fixed
+
