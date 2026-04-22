@@ -13,7 +13,7 @@
 
 | # | Task | Folder | Key artefact |
 |---|---|---|---|
-| A | Vulnerability Discovery & Remediation | `task-a-vulnerability/` | `vuln.c`, `vuln_fixed.c`, `evidence/` |
+| A | Vulnerability Discovery & Remediation | `task-a-vulnerability/` | `vulnerable-code.c`, `vulnerable-code-fixed.c`, `evidence/` |
 | B | Threat Modelling & SDLC | `task-b-threatmodel/` | `threat-model.md` |
 | C | Automated Security Testing | `task-c-testing/` | `.github/workflows/sast.yml`, `triage.md` |
 | D | Dynamic Analysis & Exploit Development | `task-d-dynamictesting/` | `exploits.md`, ZAP report |
