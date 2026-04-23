@@ -1,0 +1,1101 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:c1445c1c-8d77-46ab-a1ec-17bce3689717",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-04-23T11:55:17Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.43.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "dfcd457ff0b35452",
+      "type": "file",
+      "name": "/src"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/blinker@1.9.0?package-id=8eff5cf68e6171d6",
+      "type": "library",
+      "author": "Jason Kirtland",
+      "name": "blinker",
+      "version": "1.9.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:jason_kirtland_project:python-blinker:1.9.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/blinker@1.9.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-installed-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-package"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jason_kirtland_project:python_blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jason_kirtlandproject:python-blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jason_kirtlandproject:python_blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jason_kirtland_project:blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jason_kirtland:python-blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jason_kirtland:python_blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jason_kirtlandproject:blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-blinker:python-blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-blinker:python_blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_blinker:python-blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_blinker:python_blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:blinker:python-blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:blinker:python_blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jason_kirtland:blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-blinker:blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_blinker:blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:blinker:blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:blinker:1.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/venv/lib/python3.12/site-packages/blinker-1.9.0.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/venv/lib/python3.12/site-packages/blinker-1.9.0.dist-info/RECORD"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/click@8.3.3?package-id=640cd8cac833f780",
+      "type": "library",
+      "name": "click",
+      "version": "8.3.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:python-click:python-click:8.3.3:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/click@8.3.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-installed-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-package"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-click:python_click:8.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_click:python-click:8.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_click:python_click:8.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-click:8.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_click:8.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:click:python-click:8.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:click:python_click:8.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-click:click:8.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_click:click:8.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:click:8.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:click:click:8.3.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/venv/lib/python3.12/site-packages/click-8.3.3.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/venv/lib/python3.12/site-packages/click-8.3.3.dist-info/RECORD"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask@3.1.3?package-id=0bb8dad3a71bb0b0",
+      "type": "library",
+      "name": "flask",
+      "version": "3.1.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:python-flask:python-flask:3.1.3:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/flask@3.1.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-installed-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-package"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-flask:python_flask:3.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flask:python-flask:3.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flask:python_flask:3.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-flask:3.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_flask:3.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flask:python-flask:3.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flask:python_flask:3.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-flask:flask:3.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_flask:flask:3.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:flask:3.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flask:flask:3.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/venv/lib/python3.12/site-packages/flask-3.1.3.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/venv/lib/python3.12/site-packages/flask-3.1.3.dist-info/RECORD"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/itsdangerous@2.2.0?package-id=7a3043b18c64cd02",
+      "type": "library",
+      "name": "itsdangerous",
+      "version": "2.2.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:python-itsdangerous:python-itsdangerous:2.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/itsdangerous@2.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-installed-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-package"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-itsdangerous:python_itsdangerous:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_itsdangerous:python-itsdangerous:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_itsdangerous:python_itsdangerous:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:itsdangerous:python-itsdangerous:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:itsdangerous:python_itsdangerous:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-itsdangerous:itsdangerous:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_itsdangerous:itsdangerous:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-itsdangerous:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_itsdangerous:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:itsdangerous:itsdangerous:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:itsdangerous:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/venv/lib/python3.12/site-packages/itsdangerous-2.2.0.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/venv/lib/python3.12/site-packages/itsdangerous-2.2.0.dist-info/RECORD"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/jinja2@3.1.6?package-id=1ae3b69b75effd72",
+      "type": "library",
+      "name": "jinja2",
+      "version": "3.1.6",
+      "cpe": "cpe:2.3:a:python-jinja2:python-jinja2:3.1.6:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/jinja2@3.1.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-installed-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-package"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-jinja2:python_jinja2:3.1.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_jinja2:python-jinja2:3.1.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_jinja2:python_jinja2:3.1.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jinja2:python-jinja2:3.1.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jinja2:python_jinja2:3.1.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-jinja2:jinja2:3.1.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-jinja2:3.1.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_jinja2:3.1.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_jinja2:jinja2:3.1.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jinja2:jinja2:3.1.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:jinja2:3.1.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/venv/lib/python3.12/site-packages/jinja2-3.1.6.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/venv/lib/python3.12/site-packages/jinja2-3.1.6.dist-info/RECORD"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/markupsafe@3.0.3?package-id=9fb09eaa3e51b7ce",
+      "type": "library",
+      "name": "markupsafe",
+      "version": "3.0.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:python-markupsafe:python-markupsafe:3.0.3:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/markupsafe@3.0.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-installed-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-package"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-markupsafe:python_markupsafe:3.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_markupsafe:python-markupsafe:3.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_markupsafe:python_markupsafe:3.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:markupsafe:python-markupsafe:3.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:markupsafe:python_markupsafe:3.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-markupsafe:markupsafe:3.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_markupsafe:markupsafe:3.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-markupsafe:3.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_markupsafe:3.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:markupsafe:markupsafe:3.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:markupsafe:3.0.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/venv/lib/python3.12/site-packages/markupsafe-3.0.3.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/venv/lib/python3.12/site-packages/markupsafe-3.0.3.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "/venv/lib/python3.12/site-packages/markupsafe-3.0.3.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pip@24.0?package-id=5fa4075dce96c01e",
+      "type": "library",
+      "author": "The pip developers <distutils-sig@python.org>",
+      "name": "pip",
+      "version": "24.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:pip_developers_\\<distutils_sig_project:python-pip:24.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/pip@24.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-installed-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-package"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip_developers_\\<distutils_sig_project:python_pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip_developers_\\<distutils_sigproject:python-pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip_developers_\\<distutils_sigproject:python_pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip_developers_\\<distutils_sig_project:pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip-developers-\\<distutils-sig:python-pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip-developers-\\<distutils-sig:python_pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip_developers_\\<distutils_sig:python-pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip_developers_\\<distutils_sig:python_pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip_developers_\\<distutils_sigproject:pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip-developers-\\<distutils-sig:pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip_developers_\\<distutils_sig:pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pip:python-pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pip:python_pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pip:python-pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pip:python_pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pypa:python-pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pypa:python_pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip:python-pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip:python_pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pip:pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pip:pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pypa:pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pip:pip:24.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/venv/lib/python3.12/site-packages/pip-24.0.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/venv/lib/python3.12/site-packages/pip-24.0.dist-info/RECORD"
+        },
+        {
+          "name": "syft:location:2:path",
+          "value": "/venv/lib/python3.12/site-packages/pip-24.0.dist-info/top_level.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/werkzeug@3.1.8?package-id=90d0bed43d00d4a3",
+      "type": "library",
+      "name": "werkzeug",
+      "version": "3.1.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:python-werkzeug:python-werkzeug:3.1.8:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/werkzeug@3.1.8",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-installed-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-package"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-werkzeug:python_werkzeug:3.1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_werkzeug:python-werkzeug:3.1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_werkzeug:python_werkzeug:3.1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-werkzeug:werkzeug:3.1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_werkzeug:werkzeug:3.1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:werkzeug:python-werkzeug:3.1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:werkzeug:python_werkzeug:3.1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-werkzeug:3.1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_werkzeug:3.1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:werkzeug:werkzeug:3.1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:werkzeug:3.1.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/venv/lib/python3.12/site-packages/werkzeug-3.1.8.dist-info/METADATA"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/venv/lib/python3.12/site-packages/werkzeug-3.1.8.dist-info/RECORD"
+        }
+      ]
+    },
+    {
+      "bom-ref": "3fbc121c7e42aa8d",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/blinker-1.9.0.dist-info/METADATA",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ad4a8785c95184e661411968cb86ba3353ab46c7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b8846233cc238db1e40ad6c2c93bdcb54dfb200664d2411ee64c4095dd5dbf30"
+        }
+      ]
+    },
+    {
+      "bom-ref": "caa73f02c1f51c31",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/blinker-1.9.0.dist-info/RECORD",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "eddfefe39ecfe793a29baaf5fcaeff1fff7ae013"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "120ec4f992a9123a6e063f430208b31e97b7d3bd11474c0a9c4b19f6bc531058"
+        }
+      ]
+    },
+    {
+      "bom-ref": "8058b917e30264df",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/click-8.3.3.dist-info/METADATA",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "b35e497116ff102938df837aa7edfa797caf234e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fec8e14fbfd9298932b1ea9b589b5003c780715d8278325d70dad7ffdda94826"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5fde0b3d9cc4e8cc",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/click-8.3.3.dist-info/RECORD",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "488d91db27101f7a2642f18cbd9e55f592869c5d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8e3690cb8b308b8b0be631598786ea6b7d869ce104d584963319292d8c60e260"
+        }
+      ]
+    },
+    {
+      "bom-ref": "8d9087c6539d1da5",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/flask-3.1.3.dist-info/METADATA",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "51e0b4f72a6855cc1a2b5b086464f60614404933"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "aa6760ed6f545704474d70733e4a63a7f1481e376973edc896a13d02a7224c7c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "2d197db7b6c4d740",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/flask-3.1.3.dist-info/RECORD",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "002a569b63a512a4793fc28159cf541df9623e8a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b8e7d6a94cebd92cecc190ed49b8f916dbfcc580516bc1f8b2b4d88039e1c2a2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "4cc8bdb88f0ce0e8",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/itsdangerous-2.2.0.dist-info/METADATA",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "2721517496b1b39ca959c37af2bd94a16d2d968e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d2b934fb56708a1b94e439f0255c0f5a8108e3258ec827b18a1dc9c991db9611"
+        }
+      ]
+    },
+    {
+      "bom-ref": "5516eee930794254",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/itsdangerous-2.2.0.dist-info/RECORD",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "6f5831d8145a4fe6d259e8f53f9196c21473993f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b303bcd128d85b48cefd16f82f5c7c48a95e8dd186422c220a4c79bf176cb1aa"
+        }
+      ]
+    },
+    {
+      "bom-ref": "32a5543dca449104",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/jinja2-3.1.6.dist-info/METADATA",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "01c4dcfd579104dd8f5b937e1511e9371b4367d3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "68c5548fb67c4132a13898d9b31ec50c6bea2abdd915d921f214355c3a6499c8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e8bea3f0d1c189f7",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/jinja2-3.1.6.dist-info/RECORD",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fcdcdbc30532d423d3dff4cfe28564dbb4584c21"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1bb3b46d00f55f63d24c3a34a7f955ef6692d4691217a53b15261769607f9f7c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "afd4e644d537d66b",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/markupsafe-3.0.3.dist-info/METADATA",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "8ada20dd783a9961d87701f2cd25b0880f23993e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "12b4cc61a7fa288cf7667ee3f213786d9619db57fb33ff6f934afbcb5c12ec81"
+        }
+      ]
+    },
+    {
+      "bom-ref": "afa4386bd1204437",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/markupsafe-3.0.3.dist-info/RECORD",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d80efd1db36cb4d7dce3e5aabdb5384749293e1d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cf94542b5c0d5a7bb16c08bcd035ef0c71d9bf579a9cd21e4c52626155144b3c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "d57d4c5b31e88847",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/markupsafe-3.0.3.dist-info/top_level.txt",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "f53e3e1c5d96f0c96145fd9477ea8dbd30aceb7b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ab2d0f9637b9209bafb020637a32728430a310075c0cb2bfd9a81571ec7c67a5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7642f41ce3a45c95",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/pip-24.0.dist-info/METADATA",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5b3d7ef78029003d983670a820dcf068fde4c0c0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "90d11f277fd5868da679ee257c97656dde511c8aac7d025231407e6ce90839e2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "255592dcd48cc798",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/pip-24.0.dist-info/RECORD",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "e12e9f2e5d8293ebca114f4398a9243b61e8a220"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "be844d7289b7fd39a081fef76c9221ebf5d658f60419c775b2916bd8482793f3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "d826e34878e0ed7a",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/pip-24.0.dist-info/top_level.txt",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d7a03141d5d6b1e88b6b59ef08b6681df212c599"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+        }
+      ]
+    },
+    {
+      "bom-ref": "69b607c6e0e7d004",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/werkzeug-3.1.8.dist-info/METADATA",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "613b8b6cfbd18267696adb2b508e87d63fb1743f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f57d29864fb04c6cbf2b4e844c108d62331f4621fd163cbced288f90dfd6d392"
+        }
+      ]
+    },
+    {
+      "bom-ref": "767f786571116d66",
+      "type": "file",
+      "name": "/src/venv/lib/python3.12/site-packages/werkzeug-3.1.8.dist-info/RECORD",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "799a11f8d2ba8994a1dfd0a90adb75844cb9c3d2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d2570e287d523046d4f15a7164012350f9a543368c3d270fdf739125a2af6c3c"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:pypi/flask@3.1.3?package-id=0bb8dad3a71bb0b0",
+      "dependsOn": [
+        "pkg:pypi/blinker@1.9.0?package-id=8eff5cf68e6171d6",
+        "pkg:pypi/click@8.3.3?package-id=640cd8cac833f780",
+        "pkg:pypi/itsdangerous@2.2.0?package-id=7a3043b18c64cd02",
+        "pkg:pypi/jinja2@3.1.6?package-id=1ae3b69b75effd72",
+        "pkg:pypi/markupsafe@3.0.3?package-id=9fb09eaa3e51b7ce",
+        "pkg:pypi/werkzeug@3.1.8?package-id=90d0bed43d00d4a3"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/jinja2@3.1.6?package-id=1ae3b69b75effd72",
+      "dependsOn": [
+        "pkg:pypi/markupsafe@3.0.3?package-id=9fb09eaa3e51b7ce"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/werkzeug@3.1.8?package-id=90d0bed43d00d4a3",
+      "dependsOn": [
+        "pkg:pypi/markupsafe@3.0.3?package-id=9fb09eaa3e51b7ce"
+      ]
+    }
+  ]
+}
