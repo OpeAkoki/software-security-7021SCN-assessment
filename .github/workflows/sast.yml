@@ -26,18 +26,38 @@ jobs:
           python -m pip install --upgrade pip
           pip install semgrep bandit
 
-      - name: Semgrep scan
+      - name: Semgrep scan - vulnerable webapp (findings documented)
         run: |
           semgrep scan \
             --config p/owasp-top-ten \
             --config p/python \
             --config p/flask \
             --config p/secrets \
-            --json --output semgrep.json \
-            --error .
+            --config task-c-testing/custom-rules.yaml \
+            --json --output semgrep-vulnerable.json \
+            task-c-testing/webapp/app.py || true
 
-      - name: Bandit scan
-        run: bandit -r . -x ./tests -f json -o bandit.json || true
+      - name: Semgrep scan - fixed webapp (pass gate)
+        run: |
+          semgrep scan \
+            --config p/owasp-top-ten \
+            --config p/python \
+            --config p/flask \
+            --config p/secrets \
+            --config task-c-testing/custom-rules.yaml \
+            --json --output semgrep-fixed.json \
+            --error \
+            task-c-testing/webapp/app_fixed.py
+
+      - name: Bandit scan - vulnerable webapp
+        run: |
+          bandit -f json -o bandit-vulnerable.json \
+            task-c-testing/webapp/app.py || true
+
+      - name: Bandit scan - fixed webapp
+        run: |
+          bandit -f json -o bandit-fixed.json \
+            task-c-testing/webapp/app_fixed.py || true
 
       - name: Upload SAST reports
         if: always()
@@ -45,5 +65,7 @@ jobs:
         with:
           name: sast-reports
           path: |
-            semgrep.json
-            bandit.json
+            semgrep-vulnerable.json
+            semgrep-fixed.json
+            bandit-vulnerable.json
+            bandit-fixed.json
