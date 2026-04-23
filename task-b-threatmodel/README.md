@@ -6,7 +6,7 @@ This task analyses the My Shop webapp using the STRIDE threat modelling methodol
 
 ## Threat Model
 
-The full STRIDE analysis is in `threat-model.md`. It covers all six threat categories — Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege — with specific references to the vulnerable code in `app.py` and a proposed fix for each.
+The full STRIDE analysis is in `threat-model.md`. It covers all six threat categories (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege) with specific references to the vulnerable code in `app.py` and a proposed fix for each.
 
 ## Data Flow Diagram
 
