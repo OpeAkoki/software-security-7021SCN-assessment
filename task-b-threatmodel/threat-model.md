@@ -1,4 +1,4 @@
-# Task B — Threat Modelling and SDLC
+# Task B — Threat Modelling and SDLC Mapping
 
 ## Data Flow Diagram
 
@@ -26,7 +26,7 @@ The fix is to use parameterised queries instead of f-strings, where a placeholde
 
 **Stored Cross-Site Scripting (XSS)**
 
-Product descriptions and review comments are pasted directly into the HTML page without any sanitisation. An attacker can submit a product with a script tag in the description field and that script will run in the browser of every user who visits the page, including the admin. This is in `app.py` at lines 62 to 64 and 395 to 397.
+Product descriptions and review comments are pasted directly into the HTML page without any checks. An attacker can submit a product with a script tag in the description field and that script will run in the browser of every user who visits the page, including the admin. This is in `app.py` at lines 62 to 64 and 395 to 397.
 
 The fix is to turn on Jinja2's autoescaping, which converts any HTML characters in user input into harmless text before rendering them on the page.
 
@@ -61,3 +61,12 @@ The first is the role upgrade route at `app.py` line 182. Any logged-in buyer ca
 The second is the product deletion route at `app.py` line 320. The route checks that the user is a seller or admin before allowing deletion, but it does not check whether the product actually belongs to that seller. This means any seller can delete any other seller's products.
 
 A way to avoid the first issue is to remove the self-service upgrade entirely and require an administrator to manually approve role changes. For the second issue, the delete query should include a check that the product belongs to the seller making the request before carrying out the deletion.
+
+## SDLC Integration
+
+The threats above map to different stages of the development lifecycle:
+
+- **Requirements stage** :- Elevation of Privilege (self-service role upgrade) and Spoofing (unsigned cookie) are design decisions that should have been challenged before any code was written
+- **Implementation stage** :- Tampering (SQL injection and XSS) and Information Disclosure (plaintext passwords) are coding failures that a code review or static analysis tool would have caught during development
+- **Deployment stage** :- Information Disclosure (debug mode on) and Denial of Service (no rate limiting) are configuration issues that a deployment checklist would have prevented
+- **Every Stage** :- Repudiation (no audit logging) requires a decision at design, implementation during coding, and verification at deployment
