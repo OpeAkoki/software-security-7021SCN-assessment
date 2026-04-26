@@ -39,6 +39,7 @@ The triage log also explains what Semgrep cannot detect: the plain cookie used a
 | `evidence/semgrep.json` | Full Semgrep output from the first scan — 46 findings, all blocking |
 | `evidence/01-semgrep-failing.png` | GitHub Actions run showing the first scan with findings |
 | `evidence/02-semgrep-passing.png` | GitHub Actions run showing the fixed scan passing |
+| `evidence/03-semgrep-passing-expanded.png` | Expanded view of the passing run showing individual step results |
 
 ## Files in this folder
 
