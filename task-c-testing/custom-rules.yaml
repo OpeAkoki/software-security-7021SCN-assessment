@@ -1,0 +1,13 @@
+rules:
+  - id: plaintext-password-in-sqlite
+    pattern-either:
+      - pattern: |
+          cur.execute("INSERT INTO users ... password ...", ...)
+      - pattern: |
+          conn.execute("INSERT INTO users ... password ...")
+    message: Plaintext password storage detected (CWE-256). Passwords should be hashed using bcrypt or argon2 before storage.
+    severity: ERROR
+    languages: [python]
+    metadata:
+      cwe: "CWE-256"
+      owasp: "A02:2021 - Cryptographic Failures"
