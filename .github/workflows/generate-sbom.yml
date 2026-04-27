@@ -14,10 +14,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Build Docker image
+        run: docker build -t myshop:latest ./task-d-dynamictesting/webapp
+
       - name: Generate SBOM with Syft
         uses: anchore/sbom-action@v0
         with:
-          path: ./task-d-dynamictesting/webapp
+          image: myshop:latest
           format: cyclonedx-json
           output-file: sbom.cdx.json
           artifact-name: sbom.cdx.json
